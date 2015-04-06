@@ -1,9 +1,7 @@
-gem "minitest"
-require "minitest/autorun"
-require "lonely_planet"
+require 'helper'
 
-class TestLonelyPlanet < Minitest::Test
-  def test_sanity
-    flunk "write tests or I will kneecap you"
+class TestLonelyPlanet < Test::Unit::TestCase
+  should "probably rename this file and start testing for real" do
+    flunk "hey buddy, you should probably rename this file and start testing for real"
   end
 end
